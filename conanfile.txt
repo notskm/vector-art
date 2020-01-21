@@ -1,0 +1,14 @@
+[requires]
+sfml/2.5.1@bincrafters/stable
+nlohmann_json/3.7.3
+fmt/6.1.2
+
+[generators]
+cmake_find_package_multi
+virtualenv
+
+[options]
+sfml:graphics=True
+sfml:audio=False
+sfml:network=False
+sfml:window=False
